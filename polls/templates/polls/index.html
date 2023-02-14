@@ -4,6 +4,7 @@
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li> 
     {% endfor %}
     </ul>
+    <p>Bye... pawara</p>
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
